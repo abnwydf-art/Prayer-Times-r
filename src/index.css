@@ -18,13 +18,14 @@ section {
   align-items: center;
 }
 section .container {
-  width: 650px;
+  width: 100%;
+  max-width: 650px
   background: #332a224e;
   padding: 30px 25px;
   backdrop-filter: blur(10px);
   border-radius: 10px;
   border: 1px solid #d7d7d74e;
-  margin-right: 15%;
+  
 }
 section .top_sec {
   display: flex;
