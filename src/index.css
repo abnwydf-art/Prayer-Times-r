@@ -13,6 +13,7 @@ section {
   background: url("./ip.jpg");
   background-size: cover;
   background-position: center;
+  
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -20,13 +21,13 @@ section {
 }
 section .container {
   width: 100%;
-  max-width: 650px
+  max-width: 650px;
   background: #332a224e;
   padding: 30px 25px;
   backdrop-filter: blur(10px);
   border-radius: 10px;
   border: 1px solid #d7d7d74e;
-  
+  min-height:50px
 }
 section .top_sec {
   display: flex;
